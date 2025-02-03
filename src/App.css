@@ -1,0 +1,43 @@
+#root {
+  width: 100%;
+}
+
+div, p, h1 {
+  color: black;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.medal-form {
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-wrapper input {
+  width: 150px;
+}
+
+.medal-list {
+  margin-top: 20px;
+}
+
+.medal-list li {
+  margin-bottom: 10px;
+}
