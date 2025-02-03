@@ -41,3 +41,11 @@ div, p, h1 {
 .medal-list li {
   margin-bottom: 10px;
 }
+
+.sortingBtn {
+  margin-top: 20px;
+}
+
+.radio-wrapper {
+  gap: 16px;
+}

@@ -29,8 +29,8 @@ function App() {
     <>
       <div className='app'>
         <h1 className='title'>파리 올림픽 메달 트래커!</h1>
-        <div>
-          <label>
+        <div className='sortingBtn'>
+          <label className='radio-wrapper'>
             <input 
               type="radio"
               value={"gold"}
